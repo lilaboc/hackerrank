@@ -1,0 +1,4 @@
+# https://www.hackerrank.com/challenges/list-comprehensions
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+x, y, z, n = int(raw_input()), int(raw_input()), int(raw_input()), int(raw_input())
+print [[a, b, c] for a in xrange(x + 1) for b in xrange(y + 1) for c in xrange(z + 1) if sum([a, b, c]) != n]
