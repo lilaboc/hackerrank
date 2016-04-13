@@ -1,0 +1,6 @@
+# https://www.hackerrank.com/challenges/py-set-add
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+s = set()
+for i in xrange(int(raw_input())):
+    s.add(raw_input())
+print(len(s))
