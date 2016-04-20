@@ -4,7 +4,7 @@ import os
 import os.path
 
 url = sys.argv[1]
-ext = {'python2': '.py', 'ruby' : '.rb'}[os.path.basename(os.getcwd())]
+ext = {'python2': '.py', 'ruby' : '.rb', 'algorithm' : '.rb'}[os.path.basename(os.getcwd())]
 
 filename = url.split('/')[-1] + ext
 with open(filename, 'w') as f:
